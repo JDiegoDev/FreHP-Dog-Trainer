@@ -1,13 +1,13 @@
-import './App.css'
-//import { useTranslation } from 'react-i18next';
+import './App.scss'
+import Header from './components/Header';
+import MainView from './components/MainView';
 
 function App() {
-  //const { t, i18n } = useTranslation();
-
   return (
-    <>
-      <h1>Valeria es un insecto 🐛 </h1>
-    </>
+    <div className='container'>
+      <Header />
+      <MainView />
+    </div>
   )
 }
 
